@@ -6,12 +6,12 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/projets', function () {
+    return view('projets');
 });
 
-Route::get('/blog', function () {
-    return view('blog');
+Route::get('/veille', function () {
+    return view('veille');
 });
 
 Route::get('/contact', function () {
@@ -22,8 +22,8 @@ Route::get('/generic', function () {
     return view('generic');
 });
 
-Route::get('/servicesblade', function () {
-    return view('servicesblade');
+Route::get('/competences', function () {
+    return view('competences');
 });
 
 Route::get('/single', function () {
