@@ -10,6 +10,10 @@ Route::get('/projets', function () {
     return view('projets');
 });
 
+Route::get('/wordpress', function () {
+    return view('projetWordpress');
+});
+
 Route::get('/veille', function () {
     return view('veille');
 });

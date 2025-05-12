@@ -102,12 +102,13 @@
 
                <div class="grid-list-items__item list-items__item u-remove-bottom">
                     <div class="list-items__item-header">
-                        <h6 class="list-items__item-small-title">Nom du Projet 1</h6>
+                        <h6 class="list-items__item-small-title">Création d'un site vitrine avec Wordpress/Stripe</h6>
                     </div>
                     <p>
-                        Brève description du projet 1. Explique ce que tu as fait, les technologies utilisées, et les résultats obtenus.
+                        J'ai eu comme mission de créer un site sur Wordpress pour Bandyy,une entreprise d'événementiels, avec un tunnel de paiement afin d'
+                        accéder aux différents offres disponibles.
                     </p>
-                    <a href="lien_vers_le_projet.html" class="btn btn--small btn--stroke u-fullwidth">Voir le projet</a>
+                    <a href="/wordpress" class="btn btn--small btn--stroke u-fullwidth">Voir le projet</a>
                 </div>
 
                 <div class="grid-list-items__item list-items__item u-remove-bottom">
