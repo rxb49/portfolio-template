@@ -64,11 +64,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 cd /home/debian/portfolio/portfolio-template
 
-git pull origin main
-
 sudo chown -R www-data:www-data /home/debian/portfolio/portfolio-template
 
 sudo chmod -R 755 /home/debian/portfolio/portfolio-template
+
+git pull origin main
 
 composer install
 
