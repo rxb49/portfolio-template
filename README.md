@@ -63,16 +63,27 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Install Server
 
 cd /home/debian/portfolio/portfolio-template
+
 git pull origin main
+
 sudo chown -R www-data:www-data /home/debian/portfolio/portfolio-template
+
 sudo chmod -R 755 /home/debian/portfolio/portfolio-template
+
 composer install
+
 php artisan config:clear  # Vide le cache de configuration
+
 php artisan route:clear   # Vide le cache des routes
+
 php artisan view:clear    # Vide le cache des vues
+
 php artisan cache:clear   # Vide le cache général
+
 sudo systemctl restart php8.2-fpm  # Redémarre PHP-FPM (si tu utilises PHP 8.2)
+
 sudo systemctl reload nginx       # Recharge la configuration de Nginx sans redémarrer complètement
+
 
 
 
