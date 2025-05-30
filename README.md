@@ -84,6 +84,14 @@ sudo systemctl restart php8.2-fpm  # Redémarre PHP-FPM (si tu utilises PHP 8.2)
 
 sudo systemctl reload nginx       # Recharge la configuration de Nginx sans redémarrer complètement
 
+sudo chown -R www-data:www-data /home/debian/portfolio/portfolio-template/storage
+
+sudo chown -R www-data:www-data /home/debian/portfolio/portfolio-template/bootstrap/cache
+
+sudo chmod -R 775 /home/debian/portfolio/portfolio-template/storage
+
+sudo chmod -R 775 /home/debian/portfolio/portfolio-template/bootstrap/cache
+
 
 
 
