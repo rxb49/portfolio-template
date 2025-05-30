@@ -3102,6 +3102,19 @@ td:last-child {
     margin-bottom: var(--vspace-0_5);
 }
 
+.grid-list-items__item ul li::before {
+    content: "👉 ";
+    color: #0077cc;
+    font-weight: bold;
+}
+.grid-list-items__item a {
+    color: #0077cc;
+    text-decoration: none;
+}
+.grid-list-items__item a:hover {
+    text-decoration: underline;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * grid layouts
