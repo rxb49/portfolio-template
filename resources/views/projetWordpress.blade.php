@@ -32,7 +32,7 @@
             padding: 0 2rem;
         }
         
-        .project-card {
+        .projectW-card {
             background-color: #fff;
             border-radius: 12px;
             padding: 3rem;
@@ -41,7 +41,7 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
-        .project-card:hover {
+        .projectW-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
@@ -66,7 +66,7 @@
             margin-right: 8px;
         }
         
-        .project-actions {
+        .projectW-actions {
             margin: 2rem 0;
             text-align: center;
         }
@@ -139,7 +139,7 @@
         }
         
         @media (max-width: 768px) {
-            .project-card {
+            .projectW-card {
                 padding: 1.5rem;
             }
         }
@@ -206,17 +206,10 @@
         ================================================== -->
         <section id="content" class="s-content">
 
-            <section class="s-pageheader pageheader">
-                <div class="container">
-                    <h1 class="page-title">
-                        <span class="page-title__small-type text-pretitle">Projets</span>
-                    </h1>
-                </div>
-            </section>
 
             <section id="projet-wordpress" class="s-clients">
                 <div class="container">
-                    <div class="project-card">
+                    <div class="projectW-card">
                         <h3>Projet 1 : Création d'un site vitrine avec Wordpress/Stripe</h3>
 
                         <h4>Description du projet :</h4>
@@ -224,11 +217,11 @@
 
                         <h4>Technologies utilisées :</h4>
                         <div>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="24">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24">
-                            <img src="assets/images/icons/stripe.png" width="24">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="24">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="48">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48">
+                            <img src="assets/images/icons/stripe.png" width="48">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48">
                         </div>
 
                         <h4>Choix de ces technologies :</h4>
@@ -333,7 +326,7 @@
                             </div>
                         </div>
 
-                        <div class="project-actions">
+                        <div class="projectW-actions">
                             <a href="https://stripe.com/fr" target="_blank" class="btn">Lien vers Stripe</a>
                         </div>
 
@@ -345,7 +338,7 @@
                         <h4>Résultat final :</h4>
                         <p>Trois semaines de travail en raison de nombreux défis techniques rencontrés.</p>
 
-                        <div class="project-actions">
+                        <div class="projectW-actions">
                             <a href="https://www.bandyy.fr/" class="btn btn--primary">Voir le projet</a>                        
                         </div>
                     </div>

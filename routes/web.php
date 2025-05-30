@@ -14,6 +14,10 @@ Route::get('/wordpress', function () {
     return view('projetWordpress');
 });
 
+Route::get('/rafp', function () {
+    return view('projetRafp');
+});
+
 Route::get('/veille', function () {
     return view('veille');
 });

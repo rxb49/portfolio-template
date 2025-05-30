@@ -25,8 +25,19 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
     <link rel="manifest" href="site.webmanifest">
 
-</head>
+    <!-- animations
+    ================================================== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+    <style>
+        .tech-icon {
+            width: 32px;
+            height: auto;
+        }
+    </style>
+</head>
 
 <body id="top">
 
@@ -98,30 +109,29 @@
                     </div>
                </section> <!-- end pageheader --> 
 
-               <section id="clients" class="s-clients" style="width: 100%; padding: 4rem 2rem;">
+               <section id="clients" class="s-clients" style="width: 100%; padding: 4rem 2rem; display: flex; flex-direction: column; align-items: center; gap: 4rem;">
 
-               <div class="grid-list-items__item list-items__item u-remove-bottom">
-                    <div class="list-items__item-header">
-                        <h6 class="list-items__item-small-title">Création d'un site vitrine avec Wordpress/Stripe</h6>
-                    </div>
-                    <p>
-                        J'ai eu comme mission de créer un site sur Wordpress pour Bandyy,une entreprise d'événementiels, avec un tunnel de paiement afin d'
-                        accéder aux différents offres disponibles.
+                <!-- Projet 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" style="width: 64px; height: auto;">
+                    <h6 class="list-items__item-small-title" style="margin-top: 1.5rem;">Création d'un site vitrine avec Wordpress/Stripe</h6>
+                    <p style="margin: 1rem 0;">
+                    J'ai eu comme mission de créer un site sur Wordpress pour Bandyy, une entreprise d'événementiels, avec un tunnel de paiement pour accéder aux différentes offres disponibles.
                     </p>
                     <a href="/wordpress" class="btn btn--small btn--stroke u-fullwidth">Voir le projet</a>
                 </div>
 
-                <div class="grid-list-items__item list-items__item u-remove-bottom">
-                    <div class="list-items__item-header">
-                        <h6 class="list-items__item-small-title">Nom du Projet 2</h6>
-                    </div>
-                    <p>
-                        Brève description du projet 2. Tu peux inclure un lien vers un repo GitHub ou une démo en ligne.
+                <!-- Projet 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200" style="max-width: 600px; text-align: center;">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" style="width: 64px; height: auto;">
+                    <h6 class="list-items__item-small-title" style="margin-top: 1.5rem;">Création d'une application de gestion de la RAFP</h6>
+                    <p style="margin: 1rem 0;">
+                    Conception d’un outil visant à automatiser la gestion de la RAFP (Retraite Additionnelle de la Fonction Publique) pour les agents de l'Université d'Angers. 
                     </p>
-                    <a href="https://github.com/tonutilisateur/projet2" class="btn btn--small btn--stroke u-fullwidth">Voir sur GitHub</a>
+                    <a href="/rafp" class="btn btn--small btn--stroke u-fullwidth">Voir le projet</a>
                 </div>
 
-            </section>
+                </section>
 
 
         <!-- # footer 
@@ -192,5 +202,8 @@
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
